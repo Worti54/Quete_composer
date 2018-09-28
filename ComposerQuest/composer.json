@@ -1,0 +1,17 @@
+{
+    "name": "worti/composer-quest",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Remi Wortemann",
+            "email": "remi.wortemann@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },"autoload":{
+        "psr-4": {
+            "App\\": "src"
+        }
+}
+}
